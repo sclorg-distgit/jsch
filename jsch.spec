@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}jsch
 Version:        0.1.54
-Release:        4.1%{?dist}
+Release:        4.2%{?dist}
 Summary:        Pure Java implementation of SSH2
 Group:          Development/Libraries
 License:        BSD
@@ -73,6 +73,9 @@ zip target/%{pkg_name}-%{version}.jar plugin.properties
 %license LICENSE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0.1.54-4.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0.1.54-4.1
 - Automated package import and SCL-ization
 
